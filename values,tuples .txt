@@ -1,0 +1,92 @@
+INSERT INTO BloodBank VALUES ('BB1', 'A+', 9876543210);
+
+INSERT INTO BloodBank VALUES ('BB2', 'B-', 9876543211);
+
+INSERT INTO BloodBank VALUES ('BB3', 'AB+', 9876543212);
+******************************************************
+
+INSERT INTO Blood VALUES ('S1', 'A+', 0);
+
+INSERT INTO Blood VALUES ('S2', 'B-', 1);
+
+INSERT INTO Blood VALUES ('S3', 'AB+', 0);
+
+INSERT INTO Blood VALUES ('S4', 'O+', 0);
+
+INSERT INTO Blood VALUES ('S5', 'O+', 0);
+
+INSERT INTO Blood VALUES ('S6', 'AB+', 0);
+
+***************************************************************
+
+
+
+INSERT INTO Manager VALUES ('M1', 'John Doe', 'BB1');
+
+INSERT INTO Manager VALUES ('M2', 'Jane Doe', 'BB2');
+
+INSERT INTO Manager VALUES ('M3', 'Bob Smith', 'BB3');
+*******************************************************
+
+INSERT INTO Employee VALUES ('E1', 'Alice', 'BB1');
+
+INSERT INTO Employee VALUES ('E2', 'Bob', 'BB2');
+
+INSERT INTO Employee VALUES ('E3', 'Charlie', 'BB3');
+
+INSERT INTO Employee VALUES ('M1', 'John Doe', 'BB1');
+
+INSERT INTO Employee VALUES ('M2', 'Jane Doe', 'BB2');
+
+INSERT INTO Employee VALUES ('M3', 'Bob Smith', 'BB3');
+******************************************************
+
+INSERT INTO MgrContact VALUES ('M1', 1234567890);
+
+INSERT INTO MgrContact VALUES ('M2', 1234567891);
+
+INSERT INTO MgrContact VALUES ('M3', 1234567892);
+******************************************************
+
+INSERT INTO Receptionist VALUES ('R1', 'Alice', 9876543213, 'BB1');
+
+INSERT INTO Receptionist VALUES ('R2', 'Bob', 9876543214, 'BB2');
+
+INSERT INTO Receptionist VALUES ('R3', 'Charlie', 9876543215, 'BB3');
+
+***************************************************************
+
+insert into bdonor values('D1','John Doe','10-jan-1998','male',19,'10-feb-2022',9188752327,'R1','S1');
+insert into bdonor values('D2','Alicia','22-jan-1998','female',18,'10-feb-2022',9168752327,'R1','S2');
+insert into bdonor values('D4','Shyam','16-dec-2000','male',20,'20-mar-2022',9223921299,'R1','S4');
+insert into bdonor values('D5','Rock','08-mar-2003','male',17,'20-apr-2022',9223925599,'R2','S5');
+
+
+***********************************************************************
+
+INSERT INTO DAddress VALUES ('D1', '12 Main St', 'abc', 'def');
+
+INSERT INTO DAddress VALUES ('D2', '20 Pine Ave', 'ghi', 'def');
+
+***********************************************************************
+INSERT INTO stored_in VALUES ('S1', 'BB1', '2023-03-15', 100);
+INSERT INTO stored_in VALUES ('S4', 'BB1', '20-mar-2023', 200);
+INSERT INTO stored_in VALUES ('S5', 'BB1', '20-mar-2023', 300);
+INSERT INTO stored_in VALUES ('S6', 'BB1', '20-feb-2023', 200);
+******************************************************************
+
+INSERT INTO Hospital VALUES ('Hospital A', 'BB1', 'Tumkur', 20);
+
+INSERT INTO Hospital VALUES ('Hospital B', 'BB2', 'Tumkur', 10);
+**********************************************************************
+
+INSERT INTO Patient VALUES ('P1', 'John Doe', 'A+', 'BB1');
+
+INSERT INTO Patient VALUES ('P2', 'Jane Doe', 'B-', 'BB1');
+*************************************************************************************
+
+INSERT INTO PatientContact VALUES ('P1', '1234567890');
+
+INSERT INTO PatientContact VALUES ('P2', '2345678901');
+****************************************************************************
+
